@@ -1,18 +1,18 @@
-# 🛡️ Network Security Analyzer & Threat Detection Toolkit  
+#  Network Security Analyzer & Threat Detection Toolkit  
 **Python | Scapy | Wireshark**
 
 A lightweight network analysis and threat detection toolkit built to inspect packet-level behavior, identify anomalies, and generate forensic-ready security logs. This project uses Scapy for packet parsing, hybrid detection logic for anomalies, and Wireshark for validation.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔎 Packet Analysis
+###  Packet Analysis
 - Processes PCAP files to analyze **TCP, UDP, ICMP, and HTTP** traffic.
 - Extracts source/destination IPs, ports, protocol layers, flags, and packet metadata.
 - Performs low-level inspection similar to Wireshark using Scapy.
 
-### 🛑 Threat & Anomaly Detection
+###  Threat & Anomaly Detection
 - Detects common suspicious behaviors:
   - Malformed packets  
   - SYN scans / port scans  
@@ -23,11 +23,11 @@ A lightweight network analysis and threat detection toolkit built to inspect pac
   - **Signature-based detection**
   - **Statistical anomaly detection**
 
-### 📂 Structured Logging
+###  Structured Logging
 - Generates JSON-based security logs for forensic analysis.
 - Records timestamps, source/destination, detection type, and packet metadata.
 
-### 🧪 Validation with Wireshark
+###  Validation with Wireshark
 - All detection outputs are cross-verified using Wireshark for accuracy.
 - Ensures protocol alignment and correct interpretation of packet structure.
 
@@ -35,7 +35,7 @@ A lightweight network analysis and threat detection toolkit built to inspect pac
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Scapy**
@@ -45,7 +45,7 @@ A lightweight network analysis and threat detection toolkit built to inspect pac
 
 ---
 
-## 📊 Outputs
+##  Outputs
 
 The toolkit generates:
 
@@ -55,7 +55,7 @@ The toolkit generates:
 
 ---
 
-## 📦 How to Use
+##  How to Use
 
 1. Upload your `.pcap` file to the notebook or provide a path.
 2. Run the notebook cells (Google Colab recommended).
@@ -64,7 +64,7 @@ The toolkit generates:
 
 ---
 
-## 🔐 Use Cases
+##  Use Cases
 
 - Network traffic inspection  
 - Security research and education  
@@ -74,7 +74,7 @@ The toolkit generates:
 
 ---
 
-## 🛠️ Future Enhancements
+##  Future Enhancements
 
 - Machine-learning-based anomaly classification  
 - Support for encrypted traffic fingerprinting  
